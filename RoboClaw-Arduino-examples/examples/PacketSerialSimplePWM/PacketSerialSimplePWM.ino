@@ -5,7 +5,7 @@
 #include "RoboClaw.h"
 
 //See limitations of Arduino SoftwareSerial
-SoftwareSerial serial(10,11);	
+SoftwareSerial serial(11,12);	
 RoboClaw roboclaw(&serial,10000);
 
 #define address 0x80
